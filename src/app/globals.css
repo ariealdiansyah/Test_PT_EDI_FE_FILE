@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {}
+
+.bg-global-image {
+  background-image: url('/bg-pnp.jpg');
+  /* Additional background properties can be added here, e.g.: */
+  background-size: cover;
+  background-position: center;
+  /* Customize the background properties as per your needs */
+}
+
+/* .detailsButton {
+  padding: 0.5rem 1rem;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.detailsButton:hover {
+  background-color: #0099cc;
+}
+
+.deleteButton {
+  padding: 0.5rem 1rem;
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.deleteButton:hover {
+  background-color: #cc0000;
+} */
